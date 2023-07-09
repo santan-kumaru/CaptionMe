@@ -3,3 +3,4 @@ tensorflow
 numpy
 Keras-Preprocessing
 streamlit
+matplotlib
