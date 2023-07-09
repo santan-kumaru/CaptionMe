@@ -78,8 +78,8 @@ if uploaded_file is not None:
    
     if st.button("Generate"):
         max_length = 32
-        tokenizer = load(open(r"C:\Users\lenovo\Downloads\nlp_projects\Image-Caption-Generator\tokenizer.p","rb"))
-        model = load_model(r'C:\Users\lenovo\Downloads\nlp_projects\Image-Caption-Generator\models\model_9.h5')
+        tokenizer = load(open("tokenizer.p","rb"))
+        model = load_model(r'\models\model_9.h5')
         xception_model = Xception(include_top=False, pooling="avg")
 
         # img_path = r"C:\Users\lenovo\Downloads\nlp_projects\Image-Caption-Generator\Flickr8k_Dataset\Flicker8k_Dataset\111537222_07e56d5a30.jpg"
